@@ -3,7 +3,7 @@ const express = require('express')
 
 
 const app = express()
-
+const port = process.env.PORT || 3000
 const publicDirectoryPath = path.join(__dirname , '../public')
 app.use(express.static(publicDirectoryPath))
 app.get("/PlayGames",function(req,res){
@@ -15,6 +15,6 @@ app.get("/Contact",function(req,res){
 app.get("/About",function(req,res){
 	res.sendFile(__dirname+"/Play/footer/test.html")
 })
-app.listen(process.env.PORT || 3000,()=>{
-	console.log('Server on 3000 avialible')
+app.listen(port,()=>{
+	console.log('Server on 3000 avialible' + port)
 })
