@@ -1,0 +1,42 @@
+  body{
+    background-color: #086972;
+   font-family: 'Open Sans', sans-serif;
+
+   }
+   div{
+    color:white;
+    padding: 10px;
+    padding-left: 100px;
+
+   }
+   .cont{
+   margin-left: -1000px;
+   visibility: hidden;
+    }
+   .left{
+    margin-right: 100px;
+    margin-left: -20px;
+    padding: 13px;
+   }
+   .pad{
+    padding: 10px;
+    text-decoration: none;
+
+   }
+   
+ion-icon{
+  height: 25px;
+  width: 25px;
+color: black;
+padding:7px;}
+.mid{
+  font-size: 10px;
+  padding-left: 500px;
+  padding-top: 50px;
+  }
+  .com{
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
